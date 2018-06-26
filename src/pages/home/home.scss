@@ -1,3 +1,16 @@
-page-home {
-
+page-home{
+    .toolbar-background{
+        background-color: darkorange;
+    }
+    ion-content{
+   
+        .teams{
+            display: grid;
+            grid-template-columns: auto auto;
+            
+        }
+        .button{
+            background-color: darkorange;
+        }
+    }
 }
